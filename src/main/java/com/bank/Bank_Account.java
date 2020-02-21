@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Bank_Account {
+	
 	private Long account_number;
 	private String first_name;
 	private String last_name;

@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class AccountService {
 
-	@Autowired
+	@Autowired(required = true)
 	private AccountRepository repo;
 	
 	public List<Bank_Account> listAll() {
